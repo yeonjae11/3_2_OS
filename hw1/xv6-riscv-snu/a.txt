@@ -1,0 +1,15 @@
+test nowrite: usertrap(): unexpected scause 0xf pid=6563
+            sepc=0x1d86 stval=0x0
+usertrap(): unexpected scause 0xf pid=6564
+            sepc=0x1d86 stval=0x80000000
+usertrap(): unexpected scause 0xf pid=6565
+            sepc=0x1d86 stval=0x3fffffe000
+usertrap(): unexpected scause 0xf pid=6566
+            sepc=0x1d86 stval=0x3ffffff000
+usertrap(): unexpected scause 0xf pid=6567
+            sepc=0x1d86 stval=0x4000000000
+usertrap(): unexpected scause 0xf pid=6568
+            sepc=0x1d86 stval=0xffffffffffffffff
+OK
+test pgbug: OK
+

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "snule.h": "c",
+        "stat.h": "c"
+    }
+}
