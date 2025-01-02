@@ -1,16 +1,7 @@
 # SNU ----------------------------------------------------
 # Please specify your student ID:
-STUDENTID = 2020-15607
+STUDENTID = 2020
 
-# Do not change the following PANUM
-PANUM = pa5
-_PANUM = $(strip $(PANUM))
-ifndef STUDENTID
-$(error Please set STUDENTID in Makefile)
-endif
-ifneq ($(shell git rev-parse --abbrev-ref HEAD), $(_PANUM))
-$(error You are not on $(_PANUM) branch; do "$$ git checkout $(_PANUM)")
-endif
 _STUDENTID = $(strip $(STUDENTID))
 #---------------------------------------------------------
 
